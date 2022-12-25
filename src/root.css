@@ -1,0 +1,21 @@
+.dark-mode{
+    background-color: #161625!important;
+    color: #bdbdbd;
+}
+
+.light-mode{
+    background-color: white !important;
+    color: black;
+}
+
+.body{
+    height: 100vh;
+
+}
+
+:root{
+    --red:red;
+    --blue:blue;
+    --grey:grey;
+    --green:green;
+}

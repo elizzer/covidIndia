@@ -1,0 +1,88 @@
+@import "root.css";
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    color: var(--blue);
+}
+
+
+.india{
+    color:var(--red);
+    font-size: xx-large;
+    background-color: rgba(255,0,0,0.1);
+    display:inline-block;
+    padding: 0.2rem 0.4rem;
+    border-radius: 8px;
+}
+
+.right{
+    text-align: right;
+
+}
+
+.left{
+
+}
+
+.count{
+
+    font-weight:bolder;
+}
+
+.little{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+    margin: 0 auto;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.box{
+    padding:2rem;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 2;
+    font-weight: bolder;
+
+}
+
+.box-red{
+    color:var(--red)
+}
+
+.box-green{
+    color:var(--green)
+}
+.box-blue{
+    color: var(--green);
+}
+.box-grey{
+    color: var(--grey);
+}
+
+.box-red:hover{
+    background-color:var(--red-transparent)
+}
+
+.box-green:hover{
+    background-color:var(--green-transparent)
+}
+.box-blue:hover{
+    background-color: var(--green-transparent);
+}
+.box-grey:hover{
+    background-color: var(--grey-transparent);
+}
+
+.number{
+    font-weight: bolder;
+}

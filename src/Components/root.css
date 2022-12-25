@@ -1,0 +1,11 @@
+
+:root{
+    --red: rgb(255, 0, 0);
+    --blue:blue;
+    --grey:grey;
+    --green:green;
+    --red-transparent: rgba(255, 0, 0, 0.1);
+    --blue-transparent: rgba(0, 0, 255, 0.1);
+    --grey-transparent: rgba(0, 0, 0, 0.1);
+    --green-transparent: rgba(0, 128, 0, 0.1);
+}

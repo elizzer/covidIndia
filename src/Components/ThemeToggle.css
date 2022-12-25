@@ -1,0 +1,8 @@
+.theme-toggle{
+    display: flex;
+    justify-content: end;
+    align-self: center;
+    right:2rem;
+    margin: 0;
+    position: absolute;
+}
